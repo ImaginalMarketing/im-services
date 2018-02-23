@@ -1,0 +1,83 @@
+/* CSS Document */
+
+/* Services */
+
+table.im-services tbody {
+	background-color: transparent;
+	border: none; 
+}
+table.im-services tbody tr:nth-child(2n) {
+	background-color: transparent; 
+}
+.serv_wrapper .serv_subcat_desc p {
+	padding-left: 0;
+	font-weight: 300;
+	font-size: 0.93688rem;
+	text-transform: none; 
+}
+.serv_wrapper .serv_subcat_disclaimer {
+	margin-top: -40px;
+	margin-bottom: 50px;
+}
+.serv_wrapper .serv_subcat_disclaimer p {
+	padding-left: 0;
+	font-weight: 300;
+	font-size: 0.83688rem;
+	text-transform: none; 
+	font-style: italic;
+}
+table.im-services {
+	margin: 0 0 50px; 
+}
+table.im-services thead {
+	background-color: transparent;
+	border: none; 
+}
+table.im-services thead tr th {
+	background: transparent;
+	font-weight: 500;
+	text-align: left;
+	padding: 0;
+	vertical-align: bottom;
+	font-size: 1.5rem;
+	color: #1882c5;
+	text-transform: uppercase; 
+}
+table.im-services tbody tr { 
+	border-bottom: none;
+}
+table.im-services tbody tr td {
+	padding: 5px 0; 
+}
+table.im-services tbody tr td.serv-col {
+	padding: 2px 20px 10px 0;
+	font-weight: 500; 
+}
+table.im-services tbody tr td.serv-col:first-child {
+	padding-right: 30px; 
+}
+table.im-services tbody tr td.serv-desc {
+	padding: 0 0 0.625rem;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 0.8rem;
+	text-transform: none;
+	letter-spacing: normal;
+	width: 100% !important; 
+}
+@media screen and (max-width: 39.9375em) {
+	.show-for-medium {
+	    display: none!important;
+	}
+	.service_levels .serv-title {
+		font-weight: bold;
+	}
+	.service_levels .serv-header, .service_levels .serv-price {
+		font-weight: normal;
+	}
+}
+@media screen and (min-width: 40em) {
+	.hide-for-medium {
+	    display: none!important;
+	}
+}

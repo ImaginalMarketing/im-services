@@ -1,0 +1,21 @@
+.is-description input[type=checkbox] { display: none; }
+.is-description input[type=checkbox] + label {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-color: transparent;
+	background-image: url('../img/icon-description-off.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.is-description input[type=checkbox]:checked + label {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-color: transparent;
+	background-image: url('../img/icon-description.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
