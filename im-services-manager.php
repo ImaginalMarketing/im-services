@@ -180,8 +180,8 @@ register_field_group(array (
                         'type' => 'wysiwyg',
                         'column_width' => 100,
                         'default_value' => '',
-                        'toolbar' => 'basic',
-                        'media_upload' => 'no',
+                        'toolbar' => 'full',
+                        'media_upload' => 'yes',
                     ),
                     array (
                         'key' => 'field_57ae26dd7227a',
