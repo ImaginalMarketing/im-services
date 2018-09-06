@@ -6,6 +6,9 @@ table.im-services tbody {
 	background-color: transparent;
 	border: none; 
 }
+table.im-services {
+	width: 100%;
+}
 table.im-services tbody tr:nth-child(2n) {
 	background-color: transparent; 
 }
@@ -79,5 +82,8 @@ table.im-services tbody tr td.serv-desc {
 @media screen and (min-width: 40em) {
 	.hide-for-medium {
 	    display: none!important;
+	}
+	table.im-services tbody tr.has-description td.serv-col {
+		padding-bottom: 0;
 	}
 }

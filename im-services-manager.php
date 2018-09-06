@@ -30,6 +30,9 @@ function wptuts_styles_with_the_lot()
  
     // For either a plugin or a theme, you can then enqueue the style:
     wp_enqueue_style( 'service-styles' );
+
+    // Add class to services with descriptions
+    wp_enqueue_script( 'service-row-js', plugins_url( '/js/row_classes.js', __FILE__ ), array(), '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'wptuts_styles_with_the_lot' );
 
