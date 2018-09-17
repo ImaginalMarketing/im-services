@@ -2,7 +2,7 @@ jQuery.noConflict();
 (function($) {
 $( document ).ready(function() {
 
-	$('.acf-table-root').closest('.inner').prepend('<div>To indicate a service description, prepend the text with "++".<br />For example: ++This is a service description.<br /><br /></div>')
+	$('.acf-table-root').find('.acf-table-wrap').prepend('<div>To indicate a service description, prepend the text with "++".<br />For example: ++This is a service description.<br /><br /></div>')
 
 	$('.acf-table-body-row').each(function(){
 		$leftbody = $(this).find('.acf-table-body-left');
