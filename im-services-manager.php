@@ -498,7 +498,7 @@ foreach($postArray as $post) {
         }
     if(get_sub_field('subcategory_disclaimer')) : echo '<div class="serv_subcat_disclaimer">'; the_sub_field('subcategory_disclaimer'); echo '</div>'; else: endif; 
         echo '</div>';
-        echo $cat_id;
+        // echo $cat_id;
         endwhile;
         
     else : // no rows found
